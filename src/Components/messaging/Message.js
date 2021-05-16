@@ -1,8 +1,7 @@
 import "emoji-mart/css/emoji-mart.css";
-import { Picker } from "emoji-mart";
 import React, { Component } from "react";
 import config from "../../data.json";
-import Rooms from "./Rooms";
+
 
 class Message extends Component {
   constructor(props) {

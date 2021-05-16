@@ -1,6 +1,4 @@
-
 import React, { Component } from "react";
-
 
 class Rooms extends Component {
   constructor(props) {
