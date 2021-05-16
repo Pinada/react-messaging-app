@@ -23,7 +23,7 @@
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/Pinada/react-youtube-watch-time-gate.git
+   git clone https://github.com/Pinada/react-messaging-app.git
    ```
 2. Install NPM packages
    ```sh
