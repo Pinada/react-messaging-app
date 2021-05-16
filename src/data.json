@@ -1,0 +1,16 @@
+{
+  "General": [
+    {
+      "date": "2020-10-05T14:48:00.000Z",
+      "user": "User 1234",
+      "message": "hello"
+    }
+  ],
+  "Questions": [
+    {
+      "date": "2020-10-05T14:48:00.000Z",
+      "user": "User 12345",
+      "message": "Ask me any questions !"
+    }
+  ]
+}

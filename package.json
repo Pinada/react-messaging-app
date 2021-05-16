@@ -1,0 +1,41 @@
+{
+  "name": "react-ui",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "eslint": "^5.16.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.21.5",
+    "react-scripts": "^1.1.5",
+    "react-test-renderer": "^16.5.2",
+    "regenerator-runtime": "^0.12.1"
+  },
+  "dependencies": {
+    "emoji-mart": "^3.0.0",
+    "history": "^4.7.2",
+    "latest": "^0.2.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-intl": "^2.7.2",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-script": "^2.0.5",
+    "react-spring": "^8.0.27",
+    "validator": "^10.8.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --silent --env=jsdom",
+    "eject": "react-scripts eject",
+    "coverage": "node scripts/test.js --env=jsdom --coverage"
+  },
+  "proxy": {
+    "/*": {
+      "target": ""
+    }
+  }
+}

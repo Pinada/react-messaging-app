@@ -1,0 +1,58 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\pinhe\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Users\pinhe\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\pinhe\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\nodejs;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Users\pinhe\AppData\Local\Microsoft\WindowsApps;C:\Users\pinhe\AppData\Roaming\npm;C:\Users\pinhe\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.10.1
+
+Node version: 
+  8.12.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\pinhe\AppData\Local\Yarn\Cache\v2\npm-acorn-4.0.13-105495ae5361d697bd195c825192e1ad7f253787\src\expression.js' -> 'C:\Users\pinhe\log210-equipe5\react-ui\node_modules\acorn\src\expression.js'
+
+npm manifest: 
+  {
+    "name": "react-ui",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+      "@babel/cli": "^7.0.0",
+      "@babel/core": "^7.1.2",
+      "@babel/preset-env": "^7.1.0",
+      "enzyme": "^3.7.0",
+      "enzyme-adapter-react-16": "^1.6.0",
+      "enzyme-to-json": "^3.3.4",
+      "react-scripts": "^1.1.5",
+      "react-test-renderer": "^16.5.2",
+      "regenerator-runtime": "^0.12.1"
+    },
+    "dependencies": {
+      "babel-core": "7.0.0-bridge.0",
+      "express": "^4.16.3",
+      "express-validator": "^5.3.0",
+      "latest": "^0.2.0",
+      "react": "^16.4.1",
+      "react-dom": "^16.4.1",
+      "react-script": "^2.0.5",
+      "validator": "^10.8.0"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    },
+    "proxy": "http://localhost:5000"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
